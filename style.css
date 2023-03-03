@@ -1,7 +1,8 @@
 .container {
-    background: url('background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .form-box {
@@ -35,14 +36,18 @@
   position: relative;
 }
 
-.input-field input[type="text"],
-.input-field input[type="email"],
-.input-field input[type="password"] {
-  border: none;
-  border-bottom: 2px solid #aaa;
-  font-size: 1.2rem;
-  padding: 0.5rem;
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  box-sizing: border-box;
   width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
 
 .input-field i {
