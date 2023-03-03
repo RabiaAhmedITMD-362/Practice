@@ -1,5 +1,5 @@
 .container {
-    background: url('images/background.jpg') no-repeat center center fixed;
+    background: url('../images/background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -25,16 +25,24 @@
 }
 
 .input-group {
-    margin: 40px 0;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .input-field {
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.input-field input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
 }
 
 .input-field i {
