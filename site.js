@@ -18,7 +18,17 @@ $(document).ready(function() {
       signInBtn.addClass('disable');
     }
   }
-  
+ 
+  $('#signupBtn').click(function() {
+    $(this).addClass('active');
+    $('#signinBtn').removeClass('active');
+  });
+  $('#signinBtn').click(function() {
+    $(this).addClass('active');
+    $('#signupBtn').removeClass('active');
+  });
+});
+
   // On keyup, check form fields
   nameField.on('keyup', checkFormFields);
   emailField.on('keyup', checkFormFields);
@@ -34,7 +44,7 @@ $(document).ready(function() {
     alert('Showing sign in form');
   });
   
-  $(document).ready(function() {
+
   $("#signupBtn").click(function() {
     alert("You have successfully signed up!");
   });
