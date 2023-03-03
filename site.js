@@ -27,7 +27,6 @@ $(document).ready(function() {
     $(this).addClass('active');
     $('#signupBtn').removeClass('active');
   });
-});
 
   // On keyup, check form fields
   nameField.on('keyup', checkFormFields);
@@ -43,7 +42,6 @@ $(document).ready(function() {
   signInBtn.on('click', function() {
     alert('Showing sign in form');
   });
-  
 
   $("#signupBtn").click(function() {
     alert("You have successfully signed up!");
@@ -51,7 +49,5 @@ $(document).ready(function() {
   $("#signinBtn").click(function() {
     alert("You have successfully signed in!");
   });
-});
-
 
 });
