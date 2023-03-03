@@ -51,9 +51,10 @@
 }
 
 .btn-field {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: center;
 }
+
 
 button {
     padding: 10px 20px;
