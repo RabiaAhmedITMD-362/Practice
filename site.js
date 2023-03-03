@@ -33,5 +33,15 @@ $(document).ready(function() {
   signInBtn.on('click', function() {
     alert('Showing sign in form');
   });
+  
+  $(document).ready(function() {
+  $("#signupBtn").click(function() {
+    alert("You have successfully signed up!");
+  });
+  $("#signinBtn").click(function() {
+    alert("You have successfully signed in!");
+  });
+});
+
 
 });
